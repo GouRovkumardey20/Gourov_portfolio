@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gourov- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: rgb(0, 0, 23);
+        color: white;
+        font-family: "Poppins", serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.04rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .left-section {
+        font-size: 2.7rem;
+      }
+      .left-section .button {
+        padding: 50px 0;
+      }
+      .left-section .btn{
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+
+      }
+      .right-section img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(148, 76, 215);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(148, 76, 215);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .secondsection .box {
+        background: white;
+        width: 85vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -23px;
+        left: -9px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content:space-evenly ;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer div{
+        width: 223px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gourov's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/"> About</a></li>
+            <li><a href="/"> Services </a></li>
+            <li><a href="/"> Projects</a></li>
+            <li><a href="/"> Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="left-section">
+          Hii My name is <span class="purple">Gourov</span>
+          <div>And I am A Passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+
+          </div>
+        </div>
+        <div class="right-section">
+          <img src="dev.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray"> What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-text">HTML Developer (January-march)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestias cupiditate quod saepe explicabo quo perspiciatis, modi
+              reprehenderit aliquam, neque, accusamus sit deleniti veritatis.
+            </div>
+          </div>
+          <div class="vertical">
+              <img class="image-top" src="css.svg" alt="" />
+              <div class="vertical-text">Css Developer (march-June)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestias cupiditate quod saepe explicabo quo perspiciatis, modi
+                reprehenderit aliquam, neque, accusamus sit deleniti veritatis.
+              </div>
+            </div>
+          <div class="vertical">
+              <img class="image-top" src="js.webp" alt="" />
+              <div class="vertical-text">Js Developer (June-October)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestias cupiditate quod saepe explicabo quo perspiciatis, modi
+                reprehenderit aliquam, neque, accusamus sit deleniti veritatis.
+              </div>
+            </div>
+          <div class="vertical">
+              <img class="image-top" src="node.png" alt="" />
+              <div class="vertical-text">Node js Developer (October-December)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestias cupiditate quod saepe explicabo quo perspiciatis, modi
+                reprehenderit aliquam, neque, accusamus sit deleniti veritatis.
+              </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="react.png" alt="" />
+                <div class="vertical-text">React Developer (January-march)</div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias cupiditate quod saepe explicabo quo perspiciatis, modi
+                  reprehenderit aliquam, neque, accusamus sit deleniti veritatis.
+                </div>
+              </div>
+              <div class="vertical">
+                <img class="image-top" src="ex.png" alt="" />
+                <div class="vertical-text">Express.js Developer (march- June)</div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias cupiditate quod saepe explicabo quo perspiciatis, modi
+                  reprehenderit aliquam, neque, accusamus sit deleniti veritatis.
+                </div>
+              </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Gourov's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            copyright &#169; gourovsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Video Editor", "App Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+    <footer>
+
+    </footer>
+  </body>
+</html>
